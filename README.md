@@ -24,3 +24,10 @@ Current implementation contains two strategies for StartBatch method:
 - RemoveStrategy<T> - used for elements removing. 
 
 You can create additional strategies through implementation of IBatchApplyingStrategy interface.
+
+# Installing
+
+Installation via [nuget](https://www.nuget.org/packages/ObservableCollection.Batched/):
+```cmd
+PM> Install-Package ObservableCollection.Batched
+```
