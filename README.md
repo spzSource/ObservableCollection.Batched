@@ -10,11 +10,11 @@ To provide this we may to create a batch and after that to invoke CollectionChan
  
  using(var batch = observable.StartBatch<AddStrategy<int>>())
  {
-    batch.AddToBatch(1);
-    batch.AddToBatch(2);
-    batch.AddToBatch(3);
-    batch.AddToBatch(4);
-    batch.AddToBatch(5);
+      batch.AddToBatch(1);
+      batch.AddToBatch(2);
+      batch.AddToBatch(3);
+      batch.AddToBatch(4);
+      batch.AddToBatch(5);
  }
  // <-- CollectionChanged event invoked here
 ```
