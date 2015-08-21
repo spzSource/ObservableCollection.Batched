@@ -6,9 +6,9 @@ To provide this we may to create a batch and after that to invoke CollectionChan
 
 # Example
 ```cs
- BatchedObservableCollection<int> observableCollection = new BatchedObservableCollection<int>();
+ BatchedObservableCollection<int> observable = new BatchedObservableCollection<int>();
  
- using(var batch = observableCollection.StartBatch<AddStrategy<int>>())
+ using(var batch = observable.StartBatch<AddStrategy<int>>())
  {
     batch.AddToBatch(1);
     batch.AddToBatch(2);
